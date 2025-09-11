@@ -1,7 +1,7 @@
 \ProvidesClass{dublin}
 \LoadClass[10pt]{article}
 
-\RequirePackage[margin=0cm]{geometry}
+\RequirePackage[margin=0cm, bottom=0.5cm]{geometry}
 \usepackage{microtype}
 \usepackage{enumitem}
 \usepackage{microtype}
@@ -68,29 +68,36 @@
 %%%%%%%%%%%%%%%%%%%
 \NewEnviron{leftpart}[1]{
     \begin{minipage}{#1\textwidth}
-        \begin{tcolorbox}[colback=DGreen, boxrule=0pt, height=\textheight,
+        \begin{tcolorbox}[colback=DGreen, boxrule=0pt,
                           width=\textwidth, sharp corners,
-                          left=5mm, right=5mm, top=1cm, bottom=1cm]
+                          left=5mm, right=5mm, top=1cm, bottom=3.5cm]
             \BODY
         \end{tcolorbox}
     \end{minipage}
 }
 
 
-\NewEnviron{rightpart}[1]{%
-    \begin{minipage}{#1\textwidth}
-    \begin{tcolorbox}[colback=white, boxrule=0pt, 
-                      height=\textheight,
-                      left=5mm, right=5mm,
-                      top=1cm, bottom=1cm,
-                      sharp corners]
-            \raggedright
-            \color{Black}
-            \BODY
-        \end{tcolorbox}
-    \end{minipage}
-}
+%%\NewEnviron{rightpart}[1]
+%%{\begin{minipage}{#1\textwidth}%
+%%    \begin{tcolorbox}[colback=white, coltext=black, boxrule=0pt, 
+%%                      height=\textheight,
+%%                      left=5mm, right=5mm,
+%%                      top=1cm, bottom=1cm,
+%%                      sharp corners]
+%%    \raggedright
+%%    }
+%%   {\end{tcolorbox}\end{minipage}}
 
+\newenvironment{rightpart}[1]{
+	\begin{minipage}{#1\textwidth}
+		\begin{tcolorbox}[colback=white, coltext=black, boxrule=0pt,
+			left=5mm, right=5mm, top=1cm, bottom=1cm,
+			sharp corners]
+			\raggedright
+		}{
+		\end{tcolorbox}
+	\end{minipage}
+}
 %%%%%%%%%%%%%%%%%%
 %% Avatar Frame %%
 %%%%%%%%%%%%%%%%%%
@@ -102,7 +109,7 @@
 }
 
 \newcommand{\fullname}[1]{
-    \textcolor{white50}{\textbf{\Huge{#1}}}
+    \textcolor{white50}{\textbf{\huge{#1}}}
 }
 
 %%%%%%%%%%%%%%%%%%
@@ -205,22 +212,17 @@
     }
 }
 
-\newcommand{\sect}[2]{
-    \textcolor{body}{
-        \\
-        {\Large{\textbf{#1}}\smallskip} \\
-        #2
-    }
+\newcommand{\sect}[2]{%
+	\par\medskip
+	{\Large\textbf{#1}\smallskip}\par
+	#2\par
 }
 
-\newcommand{\expset}[3]{
-    \textcolor{body}{
-        \textbf{#1} \\
-        \textcolor{lightGray}{\footnotesize{#2}} \\
-        \smallskip
-        \setlength{\leftmargini}{0.75cm}
-        #3
-    }
+
+\newcommand{\expset}[3]{%
+	\textbf{#1}\par
+	{\footnotesize #2}\par
+	#3\par
 }
 
 \newcommand{\eduset}[2]{

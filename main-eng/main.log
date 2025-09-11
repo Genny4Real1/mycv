@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  11 SEP 2025 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  12 SEP 2025 01:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,11 +726,11 @@ LaTeX Font Info:    ... okay on input line 3.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 830.82048pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=597.50787pt
-* \textheight=845.04684pt
+* \textheight=830.82048pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
 * \topmargin=-109.26999pt
@@ -805,11 +805,11 @@ e
 ))
 \c@mv@tabular=\count333
 \c@mv@boldtabular=\count334
-<avatar.png, id=7, 602.25pt x 602.25pt>
+<avatar.png, id=7, 342.72371pt x 342.72371pt>
 File: avatar.png Graphic file (type png)
 <use avatar.png>
 Package pdftex.def Info: avatar.png  used on input line 37.
-(pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
+(pdftex.def)             Requested size: 85.35826pt x 85.35648pt.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
 (Font)              `OT1/Roboto-LF/bold/n' on input line 37.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
@@ -817,7 +817,7 @@ LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
 (Font)              `OT1/Roboto-LF/bold/n' on input line 37.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 37.
+(Font)              scaled to size 20.74pt on input line 37.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
 (Font)              `OT1/Roboto-LF/regular/n' on input line 37.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
@@ -870,47 +870,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 73.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 73.
+(Font)              scaled to size 14.4pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 73.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 73.
+(Font)              scaled to size 14.4pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 73.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 73.
-
-Runaway argument?
-{ \\ {\Large {\textbf {Experiences}}\smallskip } \\  \expset {Junior \ETC.
-! Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.73 \end{rightpart}
-                    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\sect ...\Large {\textbf {#1}}\smallskip } \\ #2 }
-                                                   
-l.73 \end{rightpart}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
+(Font)              scaled to size 10.0pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 73.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 53.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 73.
+(Font)              scaled to size 8.0pt on input line 53.
 
-Overfull \hbox (3.29396pt too wide) in paragraph at lines 4--74
- $[]$ $[]$ 
+Overfull \hbox (4.94095pt too wide) in paragraph at lines 4--77
+ $[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--77
+
  []
 
 
@@ -921,8 +903,8 @@ Overfull \hbox (3.29396pt too wide) in paragraph at lines 4--74
 /enc/dvips/roboto/rbto_schjax.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontaw
 esome/fontawesometwo.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fon
 tawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{
-/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc} <./avatar.png>] (
-./main.aux)
+/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc} <./avatar.png (PN
+G copy)>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -931,22 +913,21 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28034 strings out of 475171
- 529168 string characters out of 5767095
- 933475 words of memory out of 5000000
- 50548 multiletter control sequences out of 15000+600000
+ 28033 strings out of 475171
+ 529159 string characters out of 5767095
+ 933316 words of memory out of 5000000
+ 50547 multiletter control sequences out of 15000+600000
  577257 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 113i,10n,119p,1001b,934s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,10n,119p,1001b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/s
 hare/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texmf-dis
 t/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texmf-dist/fonts/type
-1/google/roboto/Roboto-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 630167 bytes).
+1/google/roboto/Roboto-Regular.pfb>
+Output written on main.pdf (1 page, 229863 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  32786 words of extra memory for PDF output out of 35830 (max. 10000000)
 
