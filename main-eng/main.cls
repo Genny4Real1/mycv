@@ -200,7 +200,7 @@
 \newcommand{\whitesect}[2]{
     \textcolor{white50}{
         \\
-        {\Large{#1}\smallskip} \\
+        {\LARGE{#1}\smallskip}
         #2
     }
 }
