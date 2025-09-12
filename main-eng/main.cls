@@ -1,7 +1,7 @@
 \ProvidesClass{dublin}
 \LoadClass[10pt]{article}
 
-\RequirePackage[margin=0cm, bottom=0.5cm]{geometry}
+\RequirePackage[margin=0cm, bottom=0cm]{geometry}
 \usepackage{microtype}
 \usepackage{enumitem}
 \usepackage{microtype}
@@ -206,9 +206,10 @@
 
 \newcommand{\whitesect}[2]{
     \textcolor{white50}{
-        \\
-        {\LARGE{#1}\smallskip}
+        {\textbf{\large{#1}}}
+        \vspace{2mm}
         #2
+        \smallskip
     }
 }
 
