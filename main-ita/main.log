@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  12 SEP 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  13 SEP 2025 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,7 +924,7 @@ Here is how much of TeX's memory you used:
 hare/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texmf-dis
 t/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texmf-dist/fonts/type
 1/google/roboto/Roboto-Regular.pfb>
-Output written on main.pdf (1 page, 229731 bytes).
+Output written on main.pdf (1 page, 229342 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
