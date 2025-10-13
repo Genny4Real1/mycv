@@ -15,6 +15,8 @@
 \usepackage{ragged2e}
 \usepackage{ifthen}
 \usepackage{tikz}
+\usepackage[british]{babel}
+\usepackage{datetime2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Font Style Settings %%
@@ -41,7 +43,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Import FontAwesome Icons %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 \newcommand{\emailsymbol}{\faAt}
 \newcommand{\phonesymbol}{\faPhone}
 \newcommand{\homepagesymbol}{\faChain}
@@ -52,6 +54,7 @@
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
 \newcommand{\devsymbol}{\faCode}
+\newcommand{\addresscard}{\faAddressCard[regular]}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %% Set Skip Variables %%
@@ -66,15 +69,16 @@
 %%%%%%%%%%%%%%%%%%%
 %% Grid Commands %%
 %%%%%%%%%%%%%%%%%%%
-\NewEnviron{leftpart}[1]{
-    \begin{minipage}{#1\textwidth}
-        \begin{tcolorbox}[colback=DGreen, boxrule=0pt,
-                          width=\textwidth, sharp corners,
-                          left=5mm, right=5mm, top=1cm, bottom=3.5cm]
-            \BODY
-        \end{tcolorbox}
-    \end{minipage}
+\NewEnviron{leftpart}[1]{%
+	\begin{minipage}{#1\textwidth}
+		\begin{tcolorbox}[colback=DGreen, boxrule=0pt,
+			width=\textwidth, sharp corners,
+			left=5mm, right=5mm, top=1cm, bottom=3.5cm]
+			\BODY
+		\end{tcolorbox}
+	\end{minipage}
 }
+
 
 
 %%\NewEnviron{rightpart}[1]
@@ -144,6 +148,7 @@
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
+
 
 \newcommand{\contact}[5]{
     \textcolor{white50}{

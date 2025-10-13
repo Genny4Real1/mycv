@@ -15,6 +15,10 @@
 \usepackage{ragged2e}
 \usepackage{ifthen}
 \usepackage{tikz}
+\usepackage[italian]{babel}
+\usepackage{datetime2}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Font Style Settings %%
@@ -41,7 +45,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Import FontAwesome Icons %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
+\RequirePackage{academicons}
 \newcommand{\emailsymbol}{\faAt}
 \newcommand{\phonesymbol}{\faPhone}
 \newcommand{\homepagesymbol}{\faChain}
@@ -52,6 +57,7 @@
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
 \newcommand{\devsymbol}{\faCode}
+\newcommand{\addresscard}{\faAddressCard}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %% Set Skip Variables %%
@@ -115,18 +121,18 @@
 %%%%%%%%%%%%%%%%%%
 %% Profile Info %%
 %%%%%%%%%%%%%%%%%%
-\newcommand{\intro}[3]{
-    \begin{center}
-        \avatar{#1} \\
-        \medskip
-        \fullname{#2} \\
-        \textcolor{white50}{\rule{1cm}{1mm}} \\
-        \vspace{1mm}
-        \textcolor{white50}{\large{#3}} \\
-        \bigskip
-    \end{center}
-    \
-}
+%\newcommand{\intro}[3]{
+%    \begin{center}
+%        \avatar{#1} \\
+%        \medskip
+%        \fullname{#2} \\
+%        \textcolor{white50}{\rule{1cm}{1mm}} \\
+%        \vspace{1mm}
+%        \textcolor{white50}{\large{#3}} \\
+%        \bigskip
+%    \end{center}
+%    \
+%}
 
 %%%%%%%%%%%%%%%%%%%%%
 %% Profile Details %%

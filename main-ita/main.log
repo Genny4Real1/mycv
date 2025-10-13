@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.7)  7 OCT 2025 01:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.13)  13 OCT 2025 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,9 +645,36 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/roboto/roboto.sty
-Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
-gines.
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count326
+\U@D=\dimen284
+\l@unhyphenated=\language6
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count327
+
+(/usr/share/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2024/10/10 v.1.5.01 Italian support for the babel system
+\it@lettering=\count328
+\it@doublequoteactive=\count329
+\it@ISOcompliance=\count330
+))
+(/usr/share/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+)
+(/usr/share/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+
+(/usr/share/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2025/03/04 v1.6.5 (NLCT) Track Languages
+
+(/usr/share/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texmf-dist/tex/latex/datetime2-italian/datetime2-italian.ldf
+File: datetime2-italian.ldf 2015/05/01 v1.3
 
 (/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -655,6 +682,12 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
+(/usr/share/texmf-dist/tex/latex/datetime2-italian/datetime2-italian-ascii.ldf
+File: datetime2-italian-ascii.ldf 2015/05/01 v1.3
+))) (/usr/share/texmf-dist/tex/latex/roboto/roboto.sty
+Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
+gines.
+
 (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
@@ -674,11 +707,31 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 ))
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
-Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex)
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex)))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count331
+\l__pdf_internal_box=\box82
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
+
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))
+(/usr/share/texmf-dist/tex/latex/academicons/academicons.sty
+Package: academicons 2021/11/26 v1.9.1 Academicons Icons
+))
 LaTeX Font Info:    Trying to load font information for OT1+Roboto-LF on input 
 line 4.
 
@@ -690,12 +743,7 @@ LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
 (Font)              `OT1/Roboto-LF/regular/n' on input line 4.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
-\l__pdf_internal_box=\box82
-) (./main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -752,8 +800,8 @@ LaTeX Font Info:    ... okay on input line 4.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen284
-\MT@vwid@rightmargin=\dimen285
+\MT@vwid@leftmargin=\dimen285
+\MT@vwid@rightmargin=\dimen286
 LaTeX Info: Redefining \microtypecontext on input line 4.
 Package microtype Info: Applying patch `item' on input line 4.
 Package microtype Info: Applying patch `toc' on input line 4.
@@ -783,16 +831,16 @@ Package hyperref Info: Link coloring OFF on input line 4.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen286
+\scratchcounter=\count332
+\scratchdimen=\dimen287
 \scratchbox=\box83
-\nofMPsegments=\count328
-\nofMParguments=\count329
+\nofMPsegments=\count333
+\nofMParguments=\count334
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen287
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
+\MPscratchCnt=\count335
+\MPscratchDim=\dimen288
+\MPnumerator=\count336
+\makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks41
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -803,95 +851,106 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@mv@tabular=\count333
-\c@mv@boldtabular=\count334
+LaTeX Info: Redefining \it@ocap on input line 4.
+LaTeX Info: Redefining \it@ccap on input line 4.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting
+italian.ldf    on input line 4.
+
+\c@mv@tabular=\count338
+\c@mv@boldtabular=\count339
 <avatar.png, id=7, 342.72371pt x 342.72371pt>
 File: avatar.png Graphic file (type png)
 <use avatar.png>
-Package pdftex.def Info: avatar.png  used on input line 37.
+Package pdftex.def Info: avatar.png  used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 85.35648pt.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 37.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 37.
+(Font)              scaled to size 10.0pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 37.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 20.74pt on input line 37.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 37.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 37.
+(Font)              scaled to size 20.74pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 37.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 37.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 37.
+(Font)              scaled to size 12.0pt on input line 44.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 44.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 44.
 
-(/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 37.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 44.
 
-(/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
-)
-Overfull \hbox (11.20888pt too wide) in paragraph at lines 37--37
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
+available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 44.
+
+Overfull \hbox (12.63889pt too wide) in paragraph at lines 44--44
 [] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 37.
+line 44.
 (/usr/share/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 37.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 44.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 37.
+(Font)              scaled to size 10.0pt on input line 44.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 37.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 37.
+(Font)              scaled to size 9.0pt on input line 44.
 
 (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 44.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 41.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 41.
+(Font)              scaled to size 14.4pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 41.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 41.
+(Font)              scaled to size 14.4pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 41.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 41.
+(Font)              scaled to size 10.0pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 53.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 60.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 60.
 
-Overfull \hbox (4.94095pt too wide) in paragraph at lines 5--77
+Overfull \hbox (4.94095pt too wide) in paragraph at lines 5--84
  $[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--77
+Underfull \hbox (badness 10000) in paragraph at lines 5--84
 
  []
 
@@ -901,10 +960,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/roboto/rbto_schjax.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontaw
-esome/fontawesometwo.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fon
-tawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{
-/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc} <./avatar.png (PN
-G copy)>] (./main.aux)
+esome5/fa5free0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free
+2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/
+share/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texmf-dist/
+fonts/enc/dvips/roboto/rbto_h6xohf.enc} <./avatar.png (PNG copy)>]
+(./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -913,21 +973,22 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28049 strings out of 475171
- 529418 string characters out of 5767095
- 935315 words of memory out of 5000000
- 50570 multiletter control sequences out of 15000+600000
- 577767 words of font info for 83 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 33595 strings out of 475119
+ 664853 string characters out of 5765715
+ 1060852 words of memory out of 5000000
+ 56077 multiletter control sequences out of 15000+600000
+ 576451 words of font info for 81 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
  113i,10n,119p,1001b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/s
-hare/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texmf-dis
-t/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texmf-dist/fonts/type
-1/google/roboto/Roboto-Regular.pfb>
-Output written on main.pdf (1 page, 229713 bytes).
+</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Reg
+ular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fre
+e-Solid.pfb></usr/share/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></
+usr/share/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/share/te
+xmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
+Output written on main.pdf (1 page, 258048 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 30738 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 28690 words of extra memory for PDF output out of 29859 (max. 10000000)
 
